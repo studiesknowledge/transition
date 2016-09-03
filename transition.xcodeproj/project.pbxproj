@@ -13,6 +13,7 @@
 		4D1267031D7A85AA005EA52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1267011D7A85AA005EA52E /* Main.storyboard */; };
 		4D1267051D7A85AA005EA52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1267041D7A85AA005EA52E /* Assets.xcassets */; };
 		4D1267081D7A85AA005EA52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1267061D7A85AA005EA52E /* LaunchScreen.storyboard */; };
+		4D1267111D7A86B7005EA52E /* ZDPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1267101D7A86B7005EA52E /* ZDPlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4D1267041D7A85AA005EA52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1267071D7A85AA005EA52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D1267091D7A85AA005EA52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D12670F1D7A86B7005EA52E /* ZDPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPlayViewController.h; sourceTree = "<group>"; };
+		4D1267101D7A86B7005EA52E /* ZDPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPlayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4D1266FC1D7A85AA005EA52E /* AppDelegate.m */,
 				4D1266FE1D7A85AA005EA52E /* ViewController.h */,
 				4D1266FF1D7A85AA005EA52E /* ViewController.m */,
+				4D12670F1D7A86B7005EA52E /* ZDPlayViewController.h */,
+				4D1267101D7A86B7005EA52E /* ZDPlayViewController.m */,
 				4D1267011D7A85AA005EA52E /* Main.storyboard */,
 				4D1267041D7A85AA005EA52E /* Assets.xcassets */,
 				4D1267061D7A85AA005EA52E /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1267111D7A86B7005EA52E /* ZDPlayViewController.m in Sources */,
 				4D1267001D7A85AA005EA52E /* ViewController.m in Sources */,
 				4D1266FD1D7A85AA005EA52E /* AppDelegate.m in Sources */,
 				4D1266FA1D7A85AA005EA52E /* main.m in Sources */,
